@@ -23,7 +23,7 @@ function Resume() {
                 <p>Git, Github, Heroku, MongoDB, JawsDB, DevTools</p>    
             </div>
             <Footer>
-                <p>Want to get connected? Follow me on the social channels below</p>
+                
                 <button variant="" href="https://www.github.com/candre02"><i class="fa fa-github" aria-hidden="true"></i>Github</button> <button variant="" href="https://www.lindedin.com/candre02"><i class="fa fa-linkedin" aria-hidden="true"></i>Linkedin</button> <button variant="" href="https://www.twitter.com/crystal_andre2"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</button> 
             </Footer>
         </Container>

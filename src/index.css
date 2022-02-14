@@ -337,6 +337,7 @@ section#contact-form {
   background-color: #000000;
 }
 
-/* #hompage {
+#homebase {
   background-image: url("./assets/images/Austin.jpg");
-} */
+  background-size: 1500px;
+}
