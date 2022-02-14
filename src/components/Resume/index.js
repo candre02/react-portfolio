@@ -20,7 +20,7 @@ function Resume() {
                 <h2>Back-End:</h2>
                 <p>Node.js, Object-Oriented Programming, SQL, Object-Relational Mapping, Model-View-Controller, Progressive Web Application, MERN</p>
                 <h2>Tools used:</h2>
-                <p>Git, Github, Heroku, MongoDB, JawsDB, DevTools</p>    
+                <p>Git, Github, Heroku, MongoDB, JawsDB, DevTools, VSC</p>    
             </div>
             <Footer>
                 
