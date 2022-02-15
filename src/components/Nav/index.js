@@ -5,9 +5,9 @@ function Nav() {
   return (
     <header className="flex-row px-1">
       <Container>
-        <h2 className='brand' id='homepage'>
-          <a data-id="link"  href='/'>
-          <span role="img" aria-label="automobile"> 🚗</span> CA
+        <h2 className='brand'>
+          <a class="nav-link active"  href='/'>
+          <span class="visually-hidden" role="img" aria-label="automobile"> 🚗</span> CA
           </a>
         </h2>
         <nav className=''>
@@ -15,13 +15,13 @@ function Nav() {
             <li className='mx-2'>
             <a data-id="about" href='/about'>About</a>
             </li>
-            <li className='m-2'>
+            <li className='mx-2'>
               <a data-id="portfolio" href='/portfolio'>Portfolio</a>
             </li>
-            <li className='m-2'>
+            <li className='mx-2'>
               <a data-id="contact" href='/contact'>Contact</a>
             </li>
-            <li className='m-2'>
+            <li className='mx-2'>
               <a href='/resume'>Resume</a>
             </li>
           </ul>
