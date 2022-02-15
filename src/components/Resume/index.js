@@ -1,32 +1,55 @@
-import React from "react";
-import { Container, Button } from "react-bootstrap";
-import Footer from "../Footer/index";
-import Resumefile from "../Resume/Resumefile.pdf";
-
-
+import React from 'react'
+import { Container, Button } from 'react-bootstrap'
+import Footer from '../Footer/index'
+import Resumefile from '../Resume/Resumefile.pdf'
 
 function Resume() {
-    return (
-        <Container>
-            <div>
-                <Button className="btn-resume">
-                    <a href={ Resumefile } download>Download My Resume</a>
-                </Button>
-            </div>
-            <div>
-                <h1>Skills</h1>
-                <h2>Front-End:</h2>
-                <p>HTML, CSS, JavaScript, Web API's, Third-Party API's, and Server-Side API's, React</p>
-                <h2>Back-End:</h2>
-                <p>Node.js, Object-Oriented Programming, SQL, Object-Relational Mapping, Model-View-Controller, Progressive Web Application, MERN</p>
-                <h2>Tools used:</h2>
-                <p>Git, Github, Heroku, MongoDB, JawsDB, DevTools, VSC</p>    
-            </div>
-            <Footer>
-                <button variant="" href="https://www.github.com/candre02"><i class="fa fa-github" aria-hidden="true"></i>Github</button> <button variant="" href="https://www.lindedin.com/candre02"><i class="fa fa-linkedin" aria-hidden="true"></i>Linkedin</button> <button variant="" href="https://www.twitter.com/crystal_andre2"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</button> 
-            </Footer>
-        </Container>
-    );
+  return (
+    <Container id='res1'>
+      <div>
+        <Button className="btn-resume">
+          <a href={Resumefile} download>
+            Download My Resume
+          </a>
+        </Button>
+      </div>
+      <div>
+        <ul>
+          Skills Achieved:
+          <h3 className="list-header">Front-end skills</h3>
+          <ul className="prof-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>Responsive design</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+          </ul>
+          <h3 className="list-header">Back-end skills</h3>
+          <ul className="prof-list">
+            <li>APIs</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>MySQL, Sequelize</li>
+            <li>MongoDB, Mongoose</li>
+            <li>REST</li>
+          </ul>
+        </ul>
+      </div>
+      <Footer>
+        <button variant="" href="https://www.github.com/candre02">
+          <i class="fa fa-github" aria-hidden="true"></i>Github
+        </button>{' '}
+        <button variant="" href="https://www.lindedin.com/candre02">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>Linkedin
+        </button>{' '}
+        <button variant="" href="https://www.twitter.com/crystal_andre2">
+          <i class="fa fa-twitter" aria-hidden="true"></i>Twitter
+        </button>
+      </Footer>
+    </Container>
+  )
 }
 
-export default Resume;
+export default Resume
