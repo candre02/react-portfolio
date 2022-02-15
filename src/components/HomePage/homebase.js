@@ -13,7 +13,6 @@ function HomePage() {
                 src={Austin}
                 />
             </Figure>
-
         </Container>
 
     );
