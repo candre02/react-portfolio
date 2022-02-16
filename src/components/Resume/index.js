@@ -39,13 +39,13 @@ function Resume() {
       </div>
       <Footer>
         <button variant="" href="https://www.github.com/candre02">
-          <i class="fa fa-github" aria-hidden="true"></i>Github
+          <i className="fa fa-github" aria-hidden="true"></i>Github
         </button>{' '}
         <button variant="" href="https://www.lindedin.com/candre02">
-          <i class="fa fa-linkedin" aria-hidden="true"></i>Linkedin
+          <i className="fa fa-linkedin" aria-hidden="true"></i>Linkedin
         </button>{' '}
         <button variant="" href="https://www.twitter.com/crystal_andre2">
-          <i class="fa fa-twitter" aria-hidden="true"></i>Twitter
+          <i className="fa fa-twitter" aria-hidden="true"></i>Twitter
         </button>
       </Footer>
     </Container>

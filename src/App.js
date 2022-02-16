@@ -5,6 +5,8 @@ import Contact from './components/Contact';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import HomePage from './components/HomePage';
+
 import {Route, BrowserRouter as Router} from "react-router-dom";
 
 
@@ -12,11 +14,9 @@ import {Route, BrowserRouter as Router} from "react-router-dom";
 
 function App() {
   return (
-   
-      
       <Router>
       <Nav />
-        <Route exact path="/"  />
+        <Route exact path="/home" component={HomePage}  />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/resume" component={Resume} />
