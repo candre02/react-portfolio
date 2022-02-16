@@ -351,11 +351,18 @@ section#contact-form {
   padding: 10px;
 }
 
-#homebase1,
-#homebase2 {
+#base2,
+#base3 {
  position: relative;
- top: 200px;
+ top: 250px;
  right: 260px;
 }
 
+#base3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
+#greeneye {
+  height: 350px;
+  
+}

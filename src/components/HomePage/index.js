@@ -19,8 +19,8 @@ function HomePage() {
           backgroundSize: "108%",   
         }}
       >
-         <h1 className="mb-2 h2" id="homebase1">HI! MY NAME IS CRYSTAL ANDRE</h1>
-        <p id="homebase2">
+         <h1 className="mb-2 h2" id="base2">CRYSTAL ANDRE</h1>
+        <p id="base3">
          Full Stack Web Developer 
         </p> 
       </div>
