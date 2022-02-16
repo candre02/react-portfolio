@@ -351,3 +351,11 @@ section#contact-form {
   padding: 10px;
 }
 
+#homebase1,
+#homebase2 {
+ position: relative;
+ top: 200px;
+ right: 260px;
+}
+
+

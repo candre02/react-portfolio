@@ -16,7 +16,7 @@ function App() {
   return (
       <Router>
       <Nav />
-        <Route exact path="/home" component={HomePage}  />
+        <Route exact path="/" component={HomePage}  />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/resume" component={Resume} />

@@ -13,7 +13,7 @@ function Nav() {
         <a className="navbar-brand " href="/">CA 🚗</a>
       </div>
       <ul className="nav navbar-nav flex-row">
-        <li className="active mx-2"><a href="/">Home</a></li>
+        <li className=" mx-2"><a href="/">Home</a></li>
         <li className='mx-2'><a href="/about">About</a></li>
         <li className='mx-2'><a href="/portfolio">Portfolio</a></li>
         <li className='mx-2'><a href="/contact">Contact</a></li>
