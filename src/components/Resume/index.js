@@ -41,7 +41,7 @@ function Resume() {
         <button variant="" href="https://www.github.com/candre02">
           <i className="fa fa-github" aria-hidden="true"></i>Github
         </button>{' '}
-        <button variant="" href="https://www.lindedin.com/candre02">
+        <button variant="" href="https://www.linkedin.com/in/crystal-a-6ab60b231/">
           <i className="fa fa-linkedin" aria-hidden="true"></i>Linkedin
         </button>{' '}
         <button variant="" href="https://www.twitter.com/crystal_andre2">
