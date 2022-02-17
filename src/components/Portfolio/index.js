@@ -43,7 +43,7 @@ function Portfolio() {
                         padding: '14px',
                         position: 'absolute'
                         }}>
-                            <a href="https://github.com/candre02/Profile-Building.git">
+                            <a href="https://watch.screencastify.com/v/Lny525iGpoOosjfPO8op">
                                 <Card.Img variant="top" src={TB} />
                             </a>
                             <Card.Body>
@@ -63,7 +63,7 @@ function Portfolio() {
                         marginLeft: '478px',
                         padding: '8px'
                         }}>
-                            <a href="https://github.com/candre02/Employee-Guide.git">
+                            <a href="https://watch.screencastify.com/v/mhqj9GJXkGskw8XO43cE">
                                 <Card.Img variant="top" src={ET} />
                             </a>
                             <Card.Body>
@@ -84,7 +84,7 @@ function Portfolio() {
                         marginTop: '45px',
                         marginLeft: '18%'
                         }}>
-                            <a href="https://github.com/candre02/digital-TradeBEnd.git">
+                            <a href="https://watch.screencastify.com/v/Js08zswfmwA32TKiPWFe">
                                 <Card.Img variant="top" src={EC} />
                             </a>
                             <Card.Body>
