@@ -16,7 +16,7 @@ function HomePage() {
           padding: "20em",
           backgroundRepeat: "no-repeat",
           backgroundPostion: "center",
-          backgroundSize: "108%",   
+          backgroundSize: "108%"   
         }}
       >
          <h1 className="mb-2 h2" id="base2">CRYSTAL ANDRE</h1>

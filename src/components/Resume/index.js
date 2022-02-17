@@ -1,7 +1,7 @@
-import React from 'react'
-import { Container, Button } from 'react-bootstrap'
-import Footer from '../Footer/index'
-import Resumefile from '../Resume/Resumefile.pdf'
+import React from 'react';
+import { Container, Button } from 'react-bootstrap';
+import Footer from '../Footer/index';
+import Resumefile from '../Resume/Resumefile.pdf';
 
 function Resume() {
   return (
@@ -49,7 +49,7 @@ function Resume() {
         </button>
       </Footer>
     </Container>
-  )
+  );
 }
 
 export default Resume

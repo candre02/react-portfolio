@@ -82,7 +82,7 @@ function Portfolio() {
                         outline: '1px solid white',
                         padding: '10px',
                         marginTop: '45px',
-                        marginLeft: '18%',
+                        marginLeft: '18%'
                         }}>
                             <a href="https://github.com/candre02/digital-TradeBEnd.git">
                                 <Card.Img variant="top" src={EC} />
