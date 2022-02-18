@@ -1,30 +1,38 @@
+// import files
 import React, { useState } from 'react';
 import { Row, Col } from 'react-bootstrap';
+
+// validate the email format, import the utility function
 import { validateEmail } from '../../utils/helpers';
 
 
-
+// contact function
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-  
+    // initial state of the errorMessage is an empty string
     const [errorMessage, setErrorMessage] = useState('');
+    // destructuring the formState into name properties (name, email, message)
     const { name, email, message } = formState;
   
+    // declare the handleSubmit function in the contact component
     const handleSubmit = (e) => {
       e.preventDefault();
       if (!errorMessage) {
         console.log('Submit Form', formState);
       }
     };
-  
+   
+    // declare the handleChange function, conditional statement nested inside following conditional statement
     const handleChange = (e) => {
       if (e.target.name === 'email') {
         const isValid = validateEmail(e.target.value);
+        // isValid conditional statement
         if (!isValid) {
           setErrorMessage('Your email is invalid.');
         } else {
           setErrorMessage('');
         }
+        // The nested conditional checks whether the values of these elements are blank
       } else {
         if (!e.target.value.length) {
           setErrorMessage(`${e.target.name} is required.`);
@@ -32,6 +40,7 @@ function Contact() {
           setErrorMessage('');
         }
       }
+      // setFormState (wrap the setter function), conditional statement only allows state to update w/ the user input if there is no error message
       if (!errorMessage) {
         setFormState({ ...formState, [e.target.name]: e.target.value });
         console.log('Handle Form', formState);
@@ -72,4 +81,5 @@ function Contact() {
   );
 }
 
+// export contact
 export default Contact;

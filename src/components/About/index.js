@@ -1,8 +1,9 @@
+// import files
 import React from "react";
 import about from "../../assets/images/greeneyes.jpg";
 import { Container } from "react-bootstrap";
 
-
+// about function
 function About() {
     return (
         <Container>
@@ -17,6 +18,7 @@ function About() {
     );
 }
 
+// export 
 export default About;
         
         

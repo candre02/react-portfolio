@@ -1,3 +1,4 @@
+// import files
 import React from 'react';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -9,9 +10,7 @@ import HomePage from './components/HomePage';
 
 import {Route, BrowserRouter as Router} from "react-router-dom";
 
-
-
-
+// app function
 function App() {
   return (
       <Router>
@@ -26,4 +25,5 @@ function App() {
   );
 }
 
+// export app
 export default App

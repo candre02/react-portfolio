@@ -1,5 +1,7 @@
+// import files
 import React from "react";
 
+// footer function
 function Footer() {
     return (
         <footer>
@@ -13,4 +15,5 @@ function Footer() {
     );
 }
 
+// export footer
 export default Footer;

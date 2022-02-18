@@ -1,3 +1,4 @@
+// import files
 import React from "react";
 import { Container, Card, CardGroup } from "react-bootstrap";
 import Quiz from "../../assets/images/Quiz.jpg";
@@ -6,7 +7,7 @@ import ET from "../../assets/images/ET.jpg";
 import EC from "../../assets/images/EC.jpg";
 import GS from "../../assets/images/GS.jpg";
 
-
+// portfolio function
 function Portfolio() {
     return (
         <Container>
@@ -125,4 +126,5 @@ function Portfolio() {
     );
 }
 
+// export portfolio
 export default Portfolio;

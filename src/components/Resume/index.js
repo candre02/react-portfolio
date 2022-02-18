@@ -1,8 +1,10 @@
+// import files
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import Footer from '../Footer/index';
 import Resumefile from '../Resume/Resumefile.pdf';
 
+// resume function
 function Resume() {
   return (
     <Container id='res1'>
@@ -52,4 +54,5 @@ function Resume() {
   );
 }
 
+// export resume
 export default Resume

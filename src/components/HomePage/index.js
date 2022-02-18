@@ -1,8 +1,10 @@
+// import files
 import React from "react";
 import { Container } from "react-bootstrap";
 
 import backgroundImage from "../../assets/images/skyline.jpg";
 
+// homepage function
 function HomePage() {
   return (
     <Container id="homebase" className="background-image">
@@ -28,4 +30,5 @@ function HomePage() {
   );
 }
 
+// export homepage
 export default HomePage;
