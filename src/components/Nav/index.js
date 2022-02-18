@@ -1,28 +1,38 @@
 // import files
-import React from 'react';
-import {Container} from "react-bootstrap";
-
-// nav function 
+import React from "react";
+import { Container } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
+// nav function
 function Nav() {
   return (
     <Container>
-    <nav className="navbar navbar-inverse">
-    <div className="container-fluid">
-      <div className="navbar-header ">
-        <a className="navbar-brand " href="/">CA 🚗</a>
-      </div>
-      <ul className="nav navbar-nav flex-row">
-        <li className=" mx-2"><a href="/">Home</a></li>
-        <li className='mx-2'><a href="/about">About</a></li>
-        <li className='mx-2'><a href="/portfolio">Portfolio</a></li>
-        <li className='mx-2'><a href="/contact">Contact</a></li>
-        <li className='mx-2'><a href="/resume">Resume</a></li>
-      </ul>
-    </div>
-  </nav>
-  </Container>
-    );
-  }
+      <nav className="navbar navbar-inverse">
+        <div className="container-fluid">
+          <div className="navbar-header ">
+            <p className="navbar-brand ">CA 🚗</p>
+          </div>
+          <ul className="nav navbar-nav flex-row">
+            <NavLink className=" mx-2" to="/">
+              Home
+            </NavLink>
+            <NavLink className="mx-2" to="/about">
+              About
+            </NavLink>
+            <NavLink className="mx-2" to="/portfolio">
+              Portfolio
+            </NavLink>
+            <NavLink className="mx-2" to="/contact">
+              Contact
+            </NavLink>
+            <NavLink className="mx-2" to="/resume">
+              Resume
+            </NavLink>
+          </ul>
+        </div>
+      </nav>
+    </Container>
+  );
+}
 
 // export nav
 export default Nav;

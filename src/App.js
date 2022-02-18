@@ -8,22 +8,23 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import HomePage from './components/HomePage';
 
-import {Route, BrowserRouter as Router} from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 // app function
 function App() {
   return (
-      <Router>
+    <Router>
       <Nav />
-        <Route exact path="/" component={HomePage}  />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/resume" component={Resume} />
-          <Route exact path="/contact" component={Contact} />
-      </Router>
-  
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/resume" component={Resume} />
+        <Route exact path="/contact" component={Contact} />
+      </Switch>
+    </Router>
   );
 }
 
 // export app
-export default App
+export default App;
