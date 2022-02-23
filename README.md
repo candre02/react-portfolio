@@ -25,7 +25,7 @@ In order for the user to install this application they would need to do the foll
 ## Contact
 
 * Github: [candre02](https://www.github.com/candre02)
-* Email: candre02.2@gmail.com
+
 
 
 
