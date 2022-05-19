@@ -6,6 +6,7 @@ import TB from "../../assets/images/TB.jpg";
 import ET from "../../assets/images/ET.jpg";
 import EC from "../../assets/images/EC.jpg";
 import GS from "../../assets/images/GS.jpg";
+import gracehopper from "../../assets/images/gracehopper.jpg";
 
 // portfolio function
 function Portfolio() {
@@ -31,7 +32,7 @@ function Portfolio() {
                                 <Card.Text>
                                 Quiz on javascript fundamentals, included Q/A's, timer is deducted when answers are wrong, 
                                 presented applicants initials and there total score. Check out Fundamental Quiz by clicking on the image or Github repository click{" "}
-                                <a className="link" href="https://candre02.github.io/Fundamental-Quiz/"> {" "} here</a>
+                                <a className="link" href="https://github.com/candre02/Fundamental-Quiz.git"> {" "} here</a>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -117,6 +118,28 @@ function Portfolio() {
                                 Users emails are displayed so that other users can contact them in regards to the product.
                                 Check out Git Stuff by clicking on the image or Github repository click{" "}
                                     <a className="link" href="https://github.com/chase-risinger/15-git-stuff">{" "} here</a>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div>
+                        <Card style={{
+                            width: '18rem',
+                            outline: '1px solid white',
+                            
+
+                        }}>
+                            <a href="https://programher2.herokuapp.com/">
+                                <Card.Img variant="top" src={gracehopper} />
+                            </a>
+                            <Card.Body>
+                                <Card.Title id="pf2">Program-Her</Card.Title>
+                                <Card.Text>
+                                Program-Her was a MERN stack single-page application. It was designed for women across Texas to learn how to code. 
+                                Along with coding, Program-Her offers networking, and support for women in all walks of life. On our services page, links for networking, job-searching & resources can be found. 
+                                Program-Her was designed for women supporting women. 
+                                Check out Program-Her by clicking on the image or Github repository click{" "}
+                                    <a className="link" href="https://github.com/candre02/Program-Her.git">{" "} here</a>  
                                 </Card.Text>
                             </Card.Body>
                         </Card>
