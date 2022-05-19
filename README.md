@@ -20,11 +20,12 @@ In order for the user to install this application they would need to do the foll
 
 ### Images
 
+![HP](https://user-images.githubusercontent.com/81876258/154759950-003a43b6-9f5f-46cf-9696-a9173205456d.png)
 
 ## Contact
 
 * Github: [candre02](https://www.github.com/candre02)
-* Email: candre02.2@gmail.com
+
 
 
 
