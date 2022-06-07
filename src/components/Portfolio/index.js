@@ -84,7 +84,7 @@ function Portfolio() {
                         outline: '1px solid white',
                         padding: '10px',
                         marginTop: '45px',
-                        marginLeft: '18%'
+                        marginLeft: '40%'
                         }}>
                             <a href="https://watch.screencastify.com/v/Js08zswfmwA32TKiPWFe">
                                 <Card.Img variant="top" src={EC} />
@@ -104,9 +104,9 @@ function Portfolio() {
                         width: '18rem',
                         outline: '1px solid white',
                         padding: '6px',
-                        marginLeft: '60%',
+                        marginRight: '30%',
                         marginBottom: '320px',
-                        marginTop: '-480px'
+                        marginTop: '-514px'
                         }}>
                             <a href="https://secret-forest-66148.herokuapp.com/">
                                 <Card.Img variant="top" src={GS} />
@@ -126,8 +126,10 @@ function Portfolio() {
                         <Card style={{
                             width: '18rem',
                             outline: '1px solid white',
-                            
-
+                            padding: '10px',
+                            marginLeft: '955px',
+                            marginTop: '-974px',
+                            marginBottom: '320px'
                         }}>
                             <a href="https://programher2.herokuapp.com/">
                                 <Card.Img variant="top" src={gracehopper} />
