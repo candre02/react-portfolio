@@ -84,7 +84,7 @@ function Portfolio() {
                         outline: '1px solid white',
                         padding: '10px',
                         marginTop: '45px',
-                        marginLeft: '40%'
+                        marginLeft: '480px'
                         }}>
                             <a href="https://watch.screencastify.com/v/Js08zswfmwA32TKiPWFe">
                                 <Card.Img variant="top" src={EC} />
