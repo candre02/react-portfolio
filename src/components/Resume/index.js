@@ -40,15 +40,7 @@ function Resume() {
         </ul>
       </div>
       <Footer>
-        <button variant="" href="https://www.github.com/candre02">
-          <i className="fa fa-github" aria-hidden="true"></i>Github
-        </button>{' '}
-        <button variant="" href="https://www.linkedin.com/in/crystal-a-6ab60b231/">
-          <i className="fa fa-linkedin" aria-hidden="true"></i>Linkedin
-        </button>{' '}
-        <button variant="" href="https://www.twitter.com/crystal2">
-          <i className="fa fa-twitter" aria-hidden="true"></i>Twitter
-        </button>
+      
       </Footer>
     </Container>
   );
