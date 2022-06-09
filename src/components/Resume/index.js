@@ -1,7 +1,7 @@
 // import files
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
-import Footer from '../Footer/index';
+// import Footer from '../Footer/index';
 import Resumefile from '../Resume/Resumefile.pdf';
 
 // resume function
@@ -39,9 +39,6 @@ function Resume() {
           </ul>
         </ul>
       </div>
-      <Footer>
-      
-      </Footer>
     </Container>
   );
 }
