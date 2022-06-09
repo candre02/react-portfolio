@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.95534b1d.css",
-    "main.js": "/react-portfolio/static/js/main.3c35f2fa.js",
+    "main.js": "/react-portfolio/static/js/main.99a9bd5d.js",
     "static/media/TB.jpg": "/react-portfolio/static/media/TB.0d341eca53b4aa52ad3f.jpg",
+    "static/media/Portrait.jpg": "/react-portfolio/static/media/Portrait.c96fef56ec4e5dcf544a.jpg",
     "static/media/Quiz.jpg": "/react-portfolio/static/media/Quiz.6b11bb8b16a31dd481cb.jpg",
     "static/media/GS.jpg": "/react-portfolio/static/media/GS.1225d1bd3e79a4859646.jpg",
     "static/media/EC.jpg": "/react-portfolio/static/media/EC.91b961d3f0daa5986cc8.jpg",
     "static/media/skyline.jpg": "/react-portfolio/static/media/skyline.7ba20599b52c3836727a.jpg",
     "static/media/ET.jpg": "/react-portfolio/static/media/ET.ba4239268a851dee7ee6.jpg",
     "static/media/greeneyes.jpg": "/react-portfolio/static/media/greeneyes.d42fe14842848639e316.jpg",
+    "static/media/gracehopper.jpg": "/react-portfolio/static/media/gracehopper.d5aabad9cbe1711ecf92.jpg",
     "static/media/Resumefile.pdf": "/react-portfolio/static/media/Resumefile.f10ac32c34ffd6de165b.pdf",
     "static/media/world-map.png": "/react-portfolio/static/media/world-map.fa71e5831c07820067c2.png",
     "index.html": "/react-portfolio/index.html",
     "main.95534b1d.css.map": "/react-portfolio/static/css/main.95534b1d.css.map",
-    "main.3c35f2fa.js.map": "/react-portfolio/static/js/main.3c35f2fa.js.map"
+    "main.99a9bd5d.js.map": "/react-portfolio/static/js/main.99a9bd5d.js.map"
   },
   "entrypoints": [
     "static/css/main.95534b1d.css",
-    "static/js/main.3c35f2fa.js"
+    "static/js/main.99a9bd5d.js"
   ]
 }
