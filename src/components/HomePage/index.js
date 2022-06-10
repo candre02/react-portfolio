@@ -14,7 +14,7 @@ function HomePage() {
           backgroundImage: `url(${backgroundImage})`,
           height: "700px",
           width: "1200px",
-          outline: "2px solid black",
+          outline: "2px solid RGBA(0, 58, 97, 1)",
           padding: "20em",
           backgroundRepeat: "no-repeat",
           backgroundPostion: "center",

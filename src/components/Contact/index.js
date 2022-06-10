@@ -11,28 +11,28 @@ function Contact() {
       <div>
         <h2 id="h2tag">Get in touch</h2>
       </div>
-      <CardGroup>
+      <CardGroup id='shades'>
         <div className="bg-light border">
           <Card style={{
              width: '25rem',
-             height: '809px', 
              outline: '1px solid white',
-             marginRight:'600px',
-             padding: '10px',
-             position: 'absolute'
+             padding: '40px',
+             position: 'absolute',
+             height: '740px'
+            
           }}>
-            <Card.Img variant="top" src={Portrait} />
-            <Card.Body>
-              <Card.Title>Crystal Andre</Card.Title>
+            <Card.Img variant="top" src={Portrait}  />
+            <Card.Body id='shades2'>
+              <Card.Title >Crystal Andre</Card.Title>
               <Card.Text>
-                Full Stack Web Developer, loves r&b and edm music
+                Full Stack Web Developer, loves R&B & EDM music
                 <br></br>
-                < i className="FaPinMap">Austin, Texas</i>
+                < i className="FaPinMap" id='shades2'>Austin, Texas</i>
                 <br></br>
                 Email: candre02.2@gmail.com
                 <br></br>
                 <div>
-                  <Footer>
+                  <Footer id="shades2">
                   <button variant=""  href="https://www.github.com/candre02">
                 <i className='fa fa-github'  aria-hidden="true"></i>Github
                 </button>{' '}

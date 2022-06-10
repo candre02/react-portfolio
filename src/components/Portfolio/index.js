@@ -24,7 +24,7 @@ function Portfolio() {
                             padding: '14px',
                             position: 'absolute'
                             }}>
-                            <a href="https://candre02.github.io/Fundamental-Quiz/">
+                            <a href="https://candre02.github.io/Fundamental-Quiz/" id="Projects">
                                 <Card.Img variant="top" src={Quiz} />
                             </a>
                             <Card.Body>
@@ -43,7 +43,8 @@ function Portfolio() {
                         outline: '1px solid white',
                         marginLeft: '957px',
                         padding: '14px',
-                        position: 'absolute'
+                        position: 'absolute',
+                        top: '15px'
                         }}>
                             <a href="https://watch.screencastify.com/v/Lny525iGpoOosjfPO8op">
                                 <Card.Img variant="top" src={TB} />
@@ -63,7 +64,9 @@ function Portfolio() {
                         width: '18rem',
                         outline: '1px solid white',
                         marginLeft: '478px',
-                        padding: '8px'
+                        padding: '14px',
+                        bottom: '10px',
+                        
                         }}>
                             <a href="https://watch.screencastify.com/v/mhqj9GJXkGskw8XO43cE">
                                 <Card.Img variant="top" src={ET} />
@@ -82,8 +85,9 @@ function Portfolio() {
                     <Card style={{ 
                         width: '18rem',
                         outline: '1px solid white',
-                        padding: '10px',
-                        marginTop: '45px',
+                        padding: '14px',
+                        marginTop: '48px',
+                        top: '36px',
                         marginLeft: '480px'
                         }}>
                             <a href="https://watch.screencastify.com/v/Js08zswfmwA32TKiPWFe">
@@ -103,10 +107,11 @@ function Portfolio() {
                     <Card style={{ 
                         width: '18rem',
                         outline: '1px solid white',
-                        padding: '6px',
+                        padding: '14px',
                         marginRight: '30%',
                         marginBottom: '320px',
-                        marginTop: '-514px'
+                        marginTop: '-514px',
+                        top: '25px'
                         }}>
                             <a href="https://secret-forest-66148.herokuapp.com/">
                                 <Card.Img variant="top" src={GS} />
@@ -126,10 +131,11 @@ function Portfolio() {
                         <Card style={{
                             width: '18rem',
                             outline: '1px solid white',
-                            padding: '10px',
+                            padding: '14px',
                             marginLeft: '955px',
                             marginTop: '-974px',
-                            marginBottom: '320px'
+                            marginBottom: '320px',
+                            top: '35px'
                         }}>
                             <a href="https://programher2.herokuapp.com/">
                                 <Card.Img variant="top" src={gracehopper} />
