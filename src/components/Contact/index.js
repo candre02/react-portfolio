@@ -7,7 +7,7 @@ import Footer from "../Footer/index";
 // contact function
 function Contact() {  
   return (
-    <Container>
+    <Container id='contactbox'>
       <div>
         <h2 id="h2tag">Get in touch</h2>
       </div>
@@ -17,8 +17,11 @@ function Contact() {
              width: '25rem',
              outline: '1px solid white',
              padding: '40px',
-             position: 'absolute',
-             height: '740px'
+             position: 'relative',
+             height: '760px',
+             margin: '30%',
+             top: '-350px',
+             right: '530px'
             
           }}>
             <Card.Img variant="top" src={Portrait}  />

@@ -1,6 +1,6 @@
 // import files
 import React from "react";
-import { Container, Card, CardGroup } from "react-bootstrap";
+import { Container, CardGroup, Card } from "react-bootstrap";
 import Quiz from "../../assets/images/Quiz.jpg";
 import TB from "../../assets/images/TB.jpg";
 import ET from "../../assets/images/ET.jpg";
@@ -11,7 +11,7 @@ import gracehopper from "../../assets/images/gracehopper.jpg";
 // portfolio function
 function Portfolio() {
     return (
-        <Container>
+        <Container id="Projects">
             <div>
                 <h1 id="PF1">Portfolio</h1>
             </div>
@@ -24,14 +24,15 @@ function Portfolio() {
                             padding: '14px',
                             position: 'absolute'
                             }}>
-                            <a href="https://candre02.github.io/Fundamental-Quiz/" id="Projects">
+                            <a href="https://candre02.github.io/Fundamental-Quiz/" >
                                 <Card.Img variant="top" src={Quiz} />
                             </a>
                             <Card.Body>
                                 <Card.Title id="pf2">Fundamental Quiz</Card.Title>
                                 <Card.Text>
                                 Quiz on javascript fundamentals, included Q/A's, timer is deducted when answers are wrong, 
-                                presented applicants initials and there total score. Check out Fundamental Quiz by clicking on the image or Github repository click{" "}
+                                presented applicants initials and there total score. 
+                                Check out Fundamental Quiz by clicking on the image or Github repository click{" "}
                                 <a className="link" href="https://github.com/candre02/Fundamental-Quiz.git"> {" "} here</a>
                                 </Card.Text>
                             </Card.Body>

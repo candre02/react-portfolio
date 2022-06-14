@@ -1,7 +1,7 @@
 // import files
 import React from "react";
 import { Container } from "react-bootstrap";
-
+// background image import
 import backgroundImage from "../../assets/images/skyline.jpg";
 
 // homepage function

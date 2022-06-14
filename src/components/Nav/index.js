@@ -24,7 +24,7 @@ function Nav() {
             <NavLink className="mx-2" to="/contact" >
               Contact
             </NavLink>
-            <NavLink className="mx-2" to="/resume" id="restab">
+            <NavLink className="mx-2" to="/resume">
               Resume
             </NavLink>
           </ul>

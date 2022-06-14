@@ -1,9 +1,11 @@
 // import files
 import React from "react";
 import { Container, Button } from "react-bootstrap";
+import "./resume.css";
 // import Footer from '../Footer/index';
 import Resumefile from "../Resume/Resumefile.pdf";
 import Certificate from "../Resume/Certificate.pdf";
+
 
 // resume function
 function Resume() {
@@ -27,25 +29,25 @@ function Resume() {
           {/* <br></br> */}
           <h5 id="resDiag">Front-end & Back-end Diagram</h5>
           <br></br>
-          <nav className="nav">
-          <ul>
-				<li>
-					<a href="#">HTML</a>
-					<ul>
-						<li>
-							<a href="#">JavaScript</a>
-							<ul>
-								<li>
-									<a href="#">Node</a>
-									<ul>
-										<li>
-											<a href="#">Express</a>
-											<ul>
-												<li>
-													<a href="#">Mongodb</a>
-													<ul>
-														<li>
-															<a href="#">Sequelize</a>
+          <nav className="nav" id="navDiag">
+          <ul id="ulDiag">
+				<li id="liDiag">
+					<a href="#" id="aDiag">HTML</a>
+					<ul id="ulDiag">
+						<li id="liDiag">
+							<a href="#" id="aDiag">JavaScript</a>
+							<ul id="ulDiag">
+								<li id="liDiag">
+									<a href="#" id="aDiag">Node</a>
+									<ul id="ulDiag">
+										<li id="liDiag">
+											<a href="#" id="aDiag">Express</a>
+											<ul id="ulDiag">
+												<li id="liDiag">
+													<a href="#" id="aDiag">Mongodb</a>
+													<ul id="ulDiag">
+														<li id="liDiag">
+															<a href="#" id="aDiag">Sequelize</a>
 														</li>
 													</ul>
 												</li>
@@ -53,14 +55,14 @@ function Resume() {
 										</li>
 									</ul>
 								</li>
-								<li>
-									<a href="#">MySql</a>
-									<ul>
-										<li>
-											<a href="#">OOP</a>
-											<ul>
-												<li>
-													<a href="#">Mongoose</a>
+								<li id="liDiag">
+									<a href="#" id="aDiag">MySql</a>
+									<ul id="ulDiag">
+										<li id="liDiag">
+											<a href="#" id="aDiag">OOP</a>
+											<ul id="ulDiag">
+												<li id="liDiag">
+													<a href="#" id="aDiag">Mongoose</a>
 												</li>
 											</ul>
 										</li>
@@ -68,31 +70,31 @@ function Resume() {
 								</li>
 							</ul>
 						</li>
-						<li>
-							<a href="#">CSS</a>
-							<ul>
-								<li>
-									<a href="#">Bootstrap</a>
-									<ul>
-										<li>
-											<a href="#">React</a>
+						<li id="liDiag">
+							<a href="#" id="aDiag">CSS</a>
+							<ul id="ulDiag">
+								<li id="liDiag">
+									<a href="#" id="aDiag">Bootstrap</a>
+									<ul id="ulDiag">
+										<li id="liDiag">
+											<a href="#" id="aDiag">React</a>
 										</li>
-										<li>
-											<a href="#">Responsive Design</a>
+										<li id="liDiag">
+											<a href="#" id="aDiag">Responsive Design</a>
 										</li>
 									</ul>
 								</li>
 							</ul>
 						</li>
-						<li>
-							<a href="#">APIs</a>
-							<ul>
-								<li>
-									<a href="#">Jquery</a>
+						<li id="liDiag">
+							<a href="#" id="aDiag">APIs</a>
+							<ul id="ulDiag">
+								<li id="liDiag">
+									<a href="#" id="aDiag">Jquery</a>
 									
 								</li>
-								<li>
-									<a href="#">Rest</a>
+								<li id="liDiag">
+									<a href="#" id="aDiag">Rest</a>
 								</li>
 							</ul>
 						</li>

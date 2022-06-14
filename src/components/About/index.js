@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap";
 // about function
 function About() {
     return (
-        <Container>
+        <Container id="AB">
             <h1 id="A1">About Me</h1>
             <img src={about} className="rounded-circle" alt="about"  id="greeneye"/>
             <p id="GE2">

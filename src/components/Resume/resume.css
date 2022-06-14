@@ -1,0 +1,124 @@
+/*Diagram styling in resume page*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  
+  border: 0 none;
+    
+  -webkit-transition: all ease .4s;
+  -moz-transition: all ease .4s;
+    transition: all ease .4s;
+}
+
+html,
+body {
+  background: RGBA(0, 58, 97, 1);
+}
+
+h1 {
+  color: #ccc;
+  text-align: center;
+     
+    text-shadow: rgba(0,0,0,0.6) 1px 0, rgba(0,0,0,0.6) 1px 0, rgba(0,0,0,0.6) 0 1px, rgba(0,0,0,0.6) 0 1px;
+}
+
+#navDiag {
+  margin: 20px auto;
+  width: 655px;
+  min-height: auto;
+}
+
+#navDiag #ulDiag  #ulDiag {
+  position: relative;
+  padding-top: 20px; 
+}
+
+#liDiag {
+  position: relative;
+  padding: 20px 3px 0 3px; 
+  float: left; 
+  
+  text-align: center;
+  list-style-type: none; 
+}
+
+#liDiag::before, #liDiag::after {
+  content: '';
+  position: absolute; 
+  top: 0; 
+  right: 50%;
+  width: 50%; 
+  height: 20px;
+  border-top: 1px solid #ccc;
+}
+
+#liDiag::after {
+    left: 50%;
+    right: auto; 
+    
+    border-left: 1px solid #ccc;
+  }
+  
+  #liDiag:only-child::after, #liDiag:only-child::before {
+    content: '';
+    display: none;
+  }
+  
+  #liDiag:only-child{ padding-top: 0;}
+  #liDiag:first-child::before, #liDiag:last-child::after {
+    border: 0 none;
+  }
+  
+  #liDiag:last-child::before {
+    border-right: 1px solid #ccc;
+    border-radius: 0 5px 0 0;
+  }
+  
+  #liDiag:first-child::after {
+      border-radius: 5px 0 0 0;
+  }
+  #navDiag #ulDiag #ulDiag::before {
+    content: '';
+    position: absolute; top: 0; left: 50%;
+    border-left: 1px solid #ccc;
+    width: 0; 
+    height: 20px;
+  }
+  
+  /* DIAGRAM format */
+  #liDiag #aDiag {
+    display: inline-block;
+    padding: 5px 10px;
+    
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ccc;
+    font-family: arial, verdana, tahoma;
+    font-size: 11px;
+  }
+  
+  #liDiag #aDiag:hover, #liDiag #aDiag:hover+#ulDiag #liDiag #aDiag {
+    color: #000;
+    background: #c8e4f8;   
+    border: 1px solid #94a0b4;
+  }
+  
+  #liDiag #aDiag:hover+#ulDiag #liDiag::after, 
+  #liDiag #aDiag:hover+#ulDiag #liDiag::before, 
+  #liDiag #aDiag:hover+#ulDiag::before, 
+  #liDiag #aDiag:hover+#ulDiag #ulDiag::before {
+    content: '';
+    border-color: #94a0b4;
+  }
