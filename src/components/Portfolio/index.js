@@ -45,7 +45,7 @@ function Portfolio() {
                     <Card style={{ 
                         width: '18rem',
                         outline: '1px solid white',
-                        marginLeft: '1057px',
+                        marginLeft: '1250px',
                         padding: '14px',
                         position: 'absolute',
                         top: '415px',
