@@ -25,7 +25,7 @@ function Portfolio() {
                             position: 'absolute',
                             color: 'white',
                             right: '1050px',
-                            bottom: '-154px'
+                            bottom: '29px'
                             }}>
                             <a href="https://candre02.github.io/Fundamental-Quiz/" >
                                 <Card.Img variant="top" src={Quiz} />
