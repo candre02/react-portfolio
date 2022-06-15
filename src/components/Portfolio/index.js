@@ -20,12 +20,12 @@ function Portfolio() {
                         <Card style={{ 
                             width: '18rem', 
                             outline: '1px solid white',
-                            marginRight:'202px',
+                            marginRight:'208px',
                             padding: '14px',
                             position: 'absolute',
                             color: 'white',
-                            right: '1050px',
-                            marginBottom: '-74px'
+                            marginBottom: '-74px',
+                            left: '362px'
                             }}>
                             <a href="https://candre02.github.io/Fundamental-Quiz/" >
                                 <Card.Img variant="top" src={Quiz} />
