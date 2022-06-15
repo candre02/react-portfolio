@@ -432,12 +432,12 @@ button {
   left: 390px;
   width: 660px;
   height: 785px;
-  margin: 100px;
+  margin: 190px;
   margin-left: 240px;
   /* justify-content:space-around 12px; */
   padding: 30px;
   padding-top: 10px;
-  top: 130px;
+  top: 10px;
   bottom: -20px;
 }
 
