@@ -30,7 +30,7 @@ function Resume() {
           </div>
           <div className="flip-box-back">
             <p id="Hor">
-              Html, Css, JavaScript, BootStrap, Responsive Design, React and
+              Html, Css, JavaScript, BootStrap, Responsive Web Design, React and
               JQuery
             </p>
           </div>
@@ -45,7 +45,7 @@ function Resume() {
           <div className="flip-vbox-back">
             <p id="Ver">
               Mongodb, Express, Node, OOP, APIs, Rest, Mongoose, MySql,
-              Sequelize, Webpack, and Handlebars
+              Sequelize, Webpack, MVC and Handlebars
             </p>
           </div>
         </div>
