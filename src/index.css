@@ -29,7 +29,7 @@ body {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0; 
   font-weight: 600;
   line-height: 1.5;
   font-size: 18px;
@@ -85,15 +85,16 @@ p {
 a {
 	border-radius: 5px;
 	color: var(--primary);
-	/* font-weight: 600; */
+	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
+  text-decoration: none;
 
 }
 
 a {
-  text-decoration: none;  
+  cursor: pointer;
   font-weight: bold;
 }
 
@@ -122,21 +123,20 @@ header a {
   margin-top: 40px;
   height: auto;
   width: auto;
-  left: -30px;
-  
+  left: 340px;
 }
 
 /* ca with car emoji */
 #brandname {
-  left: 40px;
-  top: 15px; 
+  margin-left: 70px;
+  color: white; 
 }
 
 /* heading tabs */
 #tabs {
   flex-wrap: nowrap;
   font-family: 'Roboto', sans-serif;
-  left: 340px;
+  margin-left: 260px;
   bottom: 10px;
 }
 
@@ -271,8 +271,8 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
+div.card {
+  /* width: 25%; */
   text-align: center;
 }
 
@@ -321,7 +321,6 @@ button {
 	padding: 10px 15px;	
 }
 
-
 .navActive {
   color: var(--secondary);
 }
@@ -330,24 +329,28 @@ button {
 /* contact page styling */
 #contactbox {
   padding: 50px;
+  left: 100px;
 }
 
  #h2tag {
   position: center;
-  margin-left: 30%;
+  margin-left: 40%;
   margin-bottom: 5%;
   left: 120px;
+  color: white;
 }
 
 #shades {
-  left: 550px;
+  margin-right: -650px;
+  margin-left: 500px;
   margin-top: 30px;
-  margin-bottom: 50%; 
+  margin-bottom: 30%; 
   padding-top: 10px;
 }
 
 #shades2 {
   font-family: 'Roboto', sans-serif ;
+  color: white;
 }
 
 
@@ -356,12 +359,9 @@ button {
   background-color: rgb(184, 173, 22);
 }
 
-
-
-
 /* Home page styling */
 #homebase {
-  left: -29px;
+  left: 140px;
 }
 
 #base2,
@@ -372,28 +372,28 @@ button {
 }
 
 #base3 {
-  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  color: white;
   font-family: 'Roboto', sans-serif;
-  left: -132px
+  left: -212px
 }
 
 /* About page styling */
 #AB {
   position: relative;
   padding: 20px;
+  left: 40px
 }
+
 
 #A1 {
   padding: 40px;
-  left: -10px;
+  margin-left: 385px;
 }
 
 #greeneye {
   height: 350px;
-  /* width: 22%; */
-  /* border-radius: 50%; */
   padding: 10px;
-  left: 465px; 
+  margin-left: 403px;
   outline: 1px solid white;
 }
 
@@ -402,45 +402,37 @@ button {
   font-size: 22px;
   padding: 30px;
   left: 10px;
+  color: white;
 }
 
 /* Portfolio page styling */
 #Projects {
   padding: 50px;
-  left: -100px;
+  left: 50px;
 }
 
 #PF1 {
-  padding: 60px;
-  bottom: 70px;
-  left: 80px;
+  padding: 50px;
+  margin-left: 400px;
 }
-
-
 
 #pf2 {
   font-family: 'Roboto', sans-serif;
 }
 
 /* resume page styling */
-#SAres {
-  padding: 20px;
-  font-family: 'Roboto', sans-serif;
-}
-
 #res1 {
   position: relative;
   border-color: white;
   border-width: 1px;
   border-style:groove;
   right: 20px;
-  left: 150px;
-  width: 750px;
-  height: 645px;
+  left: 180px;
+  width: 660px;
+  height: 785px;
   margin: 100px;
   margin-left: 240px;
   justify-content:space-around 12px;
-  background: black;
   padding: 30px;
   padding-top: 10px;
   top: 10px;
@@ -449,15 +441,65 @@ button {
 
 .btn-resume,
 .btn-cert {
-  background-color: #000000;
+  background-color: rgb(72, 11, 97);
   left: 200px;
   padding: 30px;
   font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  border-radius: 30px;
+  border-width: 2px;
+  border-style: groove;
 }
 
-#resDiag {
-  left: 236px;
-  bottom: -10px;
+.btn-cert {
+  margin-left: 150px;
+}
+
+.btn-resume {
+  margin-left: 20px;
+}
+
+#Skres {
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration:rgb(184, 173, 22) underline 2px;
+}
+
+#resFE {
+  left: 86px;
+  position: absolute;
+  margin-top: 80px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline 4px;
+  color: whitesmoke;
+
+}
+
+#resBE {
+  left: 86px;
+  position: absolute;
+  margin-top: 80px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration:  underline 4px;
+  color: rgb(150, 117, 27);
+
+}
+
+#Hor {
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#Ver {
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#verticalbox {
+  margin-left: 300px;
+}
+
+#otherskills {
   font-family: 'Roboto', sans-serif;
 }
 

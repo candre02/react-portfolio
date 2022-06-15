@@ -6,7 +6,6 @@ import "./resume.css";
 import Resumefile from "../Resume/Resumefile.pdf";
 import Certificate from "../Resume/Certificate.pdf";
 
-
 // resume function
 function Resume() {
   return (
@@ -23,91 +22,41 @@ function Resume() {
           </a>
         </Button>
       </div>
-      <div>
-        <ul>
-          <h4 id="SAres">Skills Achieved:</h4>
-          {/* <br></br> */}
-          <h5 id="resDiag">Front-end & Back-end Diagram</h5>
-          <br></br>
-          <nav className="nav" id="navDiag">
-          <ul id="ulDiag">
-				<li id="liDiag">
-					<a href="#" id="aDiag">HTML</a>
-					<ul id="ulDiag">
-						<li id="liDiag">
-							<a href="#" id="aDiag">JavaScript</a>
-							<ul id="ulDiag">
-								<li id="liDiag">
-									<a href="#" id="aDiag">Node</a>
-									<ul id="ulDiag">
-										<li id="liDiag">
-											<a href="#" id="aDiag">Express</a>
-											<ul id="ulDiag">
-												<li id="liDiag">
-													<a href="#" id="aDiag">Mongodb</a>
-													<ul id="ulDiag">
-														<li id="liDiag">
-															<a href="#" id="aDiag">Sequelize</a>
-														</li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li id="liDiag">
-									<a href="#" id="aDiag">MySql</a>
-									<ul id="ulDiag">
-										<li id="liDiag">
-											<a href="#" id="aDiag">OOP</a>
-											<ul id="ulDiag">
-												<li id="liDiag">
-													<a href="#" id="aDiag">Mongoose</a>
-												</li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li id="liDiag">
-							<a href="#" id="aDiag">CSS</a>
-							<ul id="ulDiag">
-								<li id="liDiag">
-									<a href="#" id="aDiag">Bootstrap</a>
-									<ul id="ulDiag">
-										<li id="liDiag">
-											<a href="#" id="aDiag">React</a>
-										</li>
-										<li id="liDiag">
-											<a href="#" id="aDiag">Responsive Design</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li id="liDiag">
-							<a href="#" id="aDiag">APIs</a>
-							<ul id="ulDiag">
-								<li id="liDiag">
-									<a href="#" id="aDiag">Jquery</a>
-									
-								</li>
-								<li id="liDiag">
-									<a href="#" id="aDiag">Rest</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-			</ul>
-		</nav>
-  </ul>
-</div>
-</Container>
-
-  );            
-};
+      <h3 id="Skres">My Skills: </h3>
+      <div className="flip-box">
+        <div className="flip-box-inner">
+          <div className="flip-box-front">
+            <h4 id="resFE">Front-end</h4>
+          </div>
+          <div className="flip-box-back">
+            <p id="Hor">
+              Html, Css, JavaScript, BootStrap, Responsive Design, React and
+              JQuery
+            </p>
+          </div>
+        </div>
+      </div>
+      <br></br>
+      <div className="flip-vbox" id="verticalbox">
+        <div className="flip-vbox-inner">
+          <div className="flip-vbox-front">
+            <h4 id="resBE">Back-end</h4>
+          </div>
+          <div className="flip-vbox-back">
+            <p id="Ver">
+              Mongodb, Express, Node, OOP, APIs, Rest, Mongoose, MySql,
+              Sequelize, Webpack, and Handlebars
+            </p>
+          </div>
+        </div>
+      </div>
+      <section>
+        <h4 id="Skres"> Additional Skills: </h4>
+        <p id="otherskils">Git, Github, Heroku and Insomnia</p>
+      </section>
+    </Container>
+  );
+}
 
 // export resume
 export default Resume;
