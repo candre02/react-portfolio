@@ -505,7 +505,11 @@ button {
   font-family: 'Roboto', sans-serif;
 }
 
-
+@media screen and (max-width: 768px) {
+.container { 
+  padding: 30px 15px;
+}
+}
 
 
 
