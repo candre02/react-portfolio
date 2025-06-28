@@ -325,7 +325,6 @@ button {
   color: var(--secondary);
 }
 
-
 /* contact page styling */
 #contactbox {
   padding: 50px;
@@ -352,7 +351,6 @@ button {
   font-family: 'Roboto', sans-serif ;
   color: white;
 }
-
 
 #button {
   margin-left: 40%;
@@ -383,7 +381,6 @@ button {
   padding: 20px;
   left: 40px
 }
-
 
 #A1 {
   padding: 40px;
@@ -505,9 +502,94 @@ button {
   font-family: 'Roboto', sans-serif;
 }
 
-@media screen and (max-width: 768px) {
-.container { 
-  padding: 30px 15px;
+@media screen and (max-width: 868px) {
+body
+ { 
+  padding: 50px 8px;
+  width: 10rem;
+  overflow: hidden;
+  flex: row;
+  flex-wrap: wrap;  
+ 
+}
+
+#heading {
+  width: 2005px;
+  flex-wrap: wrap;
+}
+
+#tabs {
+  flex-wrap: wrap;
+  width: 10px;
+}
+
+.container,
+#homebase {
+  width: auto;
+  flex-wrap: wrap;
+}
+#contactbox {
+  flex-wrap: wrap;
+  width: 10px;
+  padding: 200px;
+  
+}
+
+#h2tag {
+  position: absolute 10px;
+  padding-bottom: 280px;
+  padding-left: 190px;
+  padding-top: -10px;
+}
+
+#AB {
+  position: absolute;
+  width: 1400px;
+}
+
+#GE2 {
+  column-fill: auto;
+}
+
+#Projects {
+  /* position: relative;*/
+  float: none;
+  flex-direction: column;
+  flex-flow: column wrap;
+  contain: none;
+  display: grid;
+  grid-template-columns: 60px 60px;
+  justify-content: space-evenly; 
+ 
+}
+
+/* .flex-row {
+  display:flex;
+  align-items: baseline;
+} */
+
+
+
+
+/* #Quiz {
+  left: 50rem;
+  width: auto;
+  position: absolute;
+  padding: 200px;
+  float: left;
+
+} */
+
+#res1{
+  flex-wrap: wrap;
+  width: 980px;
+  padding: 200px;
+  padding-top: 10px;
+  padding-left: 100px;
+  right: 100px;
+  left: -200px;
+  bottom: 500px;
+  position: relative;
 }
 }
 
