@@ -25,7 +25,7 @@ function Portfolio() {
                             position: 'absolute',
                             color: 'white',
                             marginBottom: '-74px',
-                            left: '152px',
+                            left: '358px',
                             justifyContent: 'space-evenly',
                             gridTemplateColumns: '60px 60px',
                             float: 'left',
@@ -51,10 +51,10 @@ function Portfolio() {
                     <Card style={{ 
                         width: '18rem',
                         outline: '1px solid white',
-                        marginLeft: '1250px',
-                        padding: '14px',
+                        marginLeft: '1458px',
+                        padding: '20px',
                         position: 'absolute',
-                        top: '415px',
+                        top: '385px',
                         color: 'white',
                         left: '-215px',
                         justifyContent: 'space-evenly',
@@ -75,7 +75,6 @@ function Portfolio() {
                     <div className="bg-light border">
                     <Card style={{ 
                         width: '18rem',
-                        length: '10px',
                         outline: '1px solid white',
                         marginLeft: '410px',
                         padding: '14px',
